@@ -22,4 +22,4 @@ if __name__ == '__main__':
     file = open("/Users/Jesse/Code/Python workspace/Text Analysis/text.txt")
 
     textAnalysis = TextAnalysis(raw_text = file.read())
-    # print(textAnalysis.words)
+    print(textAnalysis.words)
